@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const response = await fetch("/activities");
       const activities = await response.json();
 
-      // Clear loading message
+      // Clear loading message dummy content
       activitiesList.innerHTML = "";
 
       // Populate activities list
